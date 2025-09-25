@@ -121,12 +121,12 @@ export default function About() {
             variants={fadeInUp}
             {...cardHoverSmall}
           >
-            <h3 className="text-xl font-semibold mb-2">Senior Full Stack Developer</h3>
-            <p className="text-primary mb-2">Company Name • 2020 - Present</p>
+            <h3 className="text-xl font-semibold mb-2">Software Engineer</h3>
+            <p className="text-primary mb-2">SkyTel TeleServices • 2025 - Present</p>
             <ul className="text-secondary list-disc list-inside space-y-2">
               <li>Led development of multiple web applications using React and Node.js</li>
               <li>Implemented CI/CD pipelines reducing deployment time by 50%</li>
-              <li>Mentored junior developers and conducted code reviews</li>
+              <li>Trained models using Yolo for traffic flow analysis applications.</li>
             </ul>
           </motion.div>
           
@@ -135,12 +135,26 @@ export default function About() {
             variants={fadeInUp}
             {...cardHoverSmall}
           >
-            <h3 className="text-xl font-semibold mb-2">Full Stack Developer</h3>
-            <p className="text-primary mb-2">Previous Company • 2018 - 2020</p>
+            <h3 className="text-xl font-semibold mb-2">Software Engineer</h3>
+            <p className="text-primary mb-2">GetMyIndia • June 2025 - August 2025</p>
             <ul className="text-secondary list-disc list-inside space-y-2">
-              <li>Developed and maintained RESTful APIs</li>
-              <li>Built responsive user interfaces with modern JavaScript frameworks</li>
-              <li>Optimized database queries improving performance by 40%</li>
+              <li>Engineered a Node.js backend serving over 10,000+ monthly users on RaysVeda.</li>
+              <li>Designed and secured REST APIs with JWT auth, enabling 500+ transactions/month.</li>
+              <li>Collaborated with a 5-member dev team using Git + JIRA.</li>
+            </ul>
+          </motion.div>
+
+          <motion.div 
+            className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
+            variants={fadeInUp}
+            {...cardHoverSmall}
+          >
+            <h3 className="text-xl font-semibold mb-2">ML Engineer Intern</h3>
+            <p className="text-primary mb-2">Omdena • November 2024 - December 2024</p>
+            <ul className="text-secondary list-disc list-inside space-y-2">
+              <li>Co-led development of LLM-based chatbot serving 100+ daily users.</li>
+              <li>Engineered and deployed 3 RAG pipelines with LangChain.</li>
+              <li>Integrated Hugging Face models ia Streamlit, achieving less than 1s response latency</li>
             </ul>
           </motion.div>
         </motion.div>
@@ -168,8 +182,8 @@ export default function About() {
             variants={fadeInUp}
             {...cardHoverSmall}
           >
-            <h3 className="text-xl font-semibold mb-2">Bachelor of Science in Computer Science</h3>
-            <p className="text-primary mb-2">University Name • 2014 - 2018</p>
+            <h3 className="text-xl font-semibold mb-2">Bachelor of Technology in Mechanical Engineering.</h3>
+            <p className="text-primary mb-2">Motilal Nehru National Institute of Technology • 2021 - 2025</p>
             <p className="text-secondary">
               Graduated with honors. Focused on software engineering and web development.
             </p>

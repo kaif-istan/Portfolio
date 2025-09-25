@@ -8,16 +8,13 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <Link href="/" className="text-xl font-bold text-primary">
-              Devfolio&trade;
+              Md Kaif
             </Link>
-            <p className="text-sm text-secondary mt-2">
-              © {new Date().getFullYear()} Devfolio. All rights reserved.
-            </p>
           </div>
           
           <div className="flex space-x-6">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/kaif-istan"
               target="_blank"
               rel="noopener noreferrer"
               className="text-secondary hover:text-primary transition-colors"
@@ -25,7 +22,7 @@ export default function Footer() {
               <FaGithub className="h-6 w-6" />
             </a>
             <a
-              href="https://twitter.com/yourusername"
+              href="https://x.com/MdKaif97185397"
               target="_blank"
               rel="noopener noreferrer"
               className="text-secondary hover:text-primary transition-colors"
@@ -33,7 +30,7 @@ export default function Footer() {
               <FaTwitter className="h-6 w-6" />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/kaif85077"
               target="_blank"
               rel="noopener noreferrer"
               className="text-secondary hover:text-primary transition-colors"
